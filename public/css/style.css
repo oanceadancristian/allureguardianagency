@@ -248,6 +248,7 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+  width: 100%;
 }
 #features i.fa {
   font-size: 38px;
