@@ -585,4 +585,8 @@ label {
   #about img {
     margin: 50px 0;
   }
+
+  body {
+    width: 100%;
+  }
 }
