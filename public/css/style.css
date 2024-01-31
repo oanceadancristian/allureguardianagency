@@ -581,8 +581,8 @@ label {
   border-bottom: 2px solid #fff;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
   }
-}
+} */
