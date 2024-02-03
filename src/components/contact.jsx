@@ -6,18 +6,26 @@ export const Contact = (props) => {
       <div id="contact">
         <div className="container">
           <div className="application_form">
-            <iframe
+            {/* <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSerNZPsfLMo3WpmQcZxUFam3NAJq-A0PoswutmRi803T5fj4w/viewform?embedded=true"
+              title="Application Form"
               width="100%"
               height="2915"
-              title="Application Form"
               frameBorder="0"
               marginHeight="0"
               marginWidth="0"
               scrolling="no"
             >
               Loading…
-            </iframe>
+            </iframe> */}
+            <iframe
+              src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2-EDEMvybvJnVFZfugu5Iqc1iwX34Siz5JRZcB71PlWqfdpzpJEIMKiIZ7l8mOIeshK6g5WVua?gv=true"
+              title="Booking Page"
+              style={{ border: 0 }}
+              width="100%"
+              height="600"
+              frameborder="0"
+            ></iframe>
           </div>
           <div className="text-center contact-info">
             <div className="contact-item">
