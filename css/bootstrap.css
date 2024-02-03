@@ -4430,7 +4430,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     position: static;
     float: none;
     width: auto;
-    margin-top: 0;
+    /* margin-top: 0; */
     background-color: transparent;
     border: 0;
     -webkit-box-shadow: none;
@@ -6811,7 +6811,7 @@ button.close {
   .carousel-control .icon-next {
     width: 30px;
     height: 30px;
-    margin-top: -10px;
+    /* margin-top: -10px; */
     font-size: 30px;
   }
   .carousel-control .glyphicon-chevron-left,
