@@ -24,7 +24,7 @@ export const Contact = (props) => {
               style={{ border: 0 }}
               width="100%"
               height="700"
-              frameborder="0"
+              frameBorder="0"
             ></iframe>
           </div>
           <div className="text-center contact-info">
