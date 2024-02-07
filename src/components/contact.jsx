@@ -23,7 +23,7 @@ export const Contact = (props) => {
               title="Booking Page"
               style={{ border: 0 }}
               width="100%"
-              height="700"
+              height="1000"
               frameBorder="0"
             ></iframe>
           </div>
