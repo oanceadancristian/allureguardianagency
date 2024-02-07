@@ -4288,7 +4288,25 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
+@media (max-width: 767px) {
+  .navbar-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-toggle {
+    order: 2;
+  }
+}
 @media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4768,6 +4786,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
     color: #444;
     background-color: transparent;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    display: block;
   }
 }
 .navbar-inverse .navbar-link {
