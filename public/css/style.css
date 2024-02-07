@@ -15,25 +15,25 @@ h4 {
 }
 h2 {
   text-transform: uppercase;
-  margin: 0 0 20px;
+  margin: 0 0 1.25em;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 2.25em;
   color: #333;
 }
 h3 {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 600;
   color: #333;
 }
 h4 {
-  font-size: 18px;
+  font-size: 1.125em;
   color: #333;
   font-weight: 600;
 }
 h5 {
   text-transform: uppercase;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 1.25em;
 }
 p {
   font-size: 15px;
@@ -82,7 +82,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.75em;
+  font-size: 1.6em;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
