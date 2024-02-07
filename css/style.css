@@ -7,7 +7,6 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-  font-size: 16px;
 }
 h2,
 h3,
@@ -16,32 +15,32 @@ h4 {
 }
 h2 {
   text-transform: uppercase;
-  margin: 0 0 1.25em;
+  margin: 0 0 20px;
   font-weight: 800;
-  font-size: 2.25em;
+  font-size: 36px;
   color: #333;
 }
 h3 {
-  font-size: 1.25em;
+  font-size: 20px;
   font-weight: 600;
   color: #333;
 }
 h4 {
-  font-size: 1.125em;
+  font-size: 18px;
   color: #333;
   font-weight: 600;
 }
 h5 {
   text-transform: uppercase;
   font-weight: 700;
-  line-height: 1.25em;
+  line-height: 20px;
 }
 p {
-  font-size: 1em;
+  font-size: 15px;
 }
 p.intro {
-  margin: 0.75em 0 0;
-  line-height: 1.5em;
+  margin: 12px 0 0;
+  line-height: 24px;
 }
 a {
   color: #fc423f;
@@ -63,27 +62,27 @@ ol {
   moz-padding: 0;
 }
 hr {
-  height: 0.125em;
-  width: 4.375em;
+  height: 2px;
+  width: 70px;
   text-align: center;
   position: relative;
   background: #1e7a46;
-  margin-bottom: 1.25wm;
+  margin-bottom: 20px;
   border: 0;
 }
 /* Navigation */
 #menu {
-  padding: 1em;
+  padding: 15px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
   background-color: #fc423f;
   border-color: rgba(231, 231, 231, 0);
-  box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.6em;
+  font-size: 22px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -92,19 +91,19 @@ hr {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   color: #fff;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: 400;
-  padding: 0.5em 0.125em;
+  padding: 8px 2px;
   border-radius: 0;
-  margin: 0.563em 1.25em 0;
+  margin: 9px 20px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
   position: absolute;
   left: 0;
-  bottom: -0.063em;
+  bottom: -1px;
   width: 0;
-  height: 0.125em;
+  height: 2px;
   background: linear-gradient(to right, #fc423f 0%, #fff 100%);
   content: '';
   transition: width 0.2s;
@@ -123,9 +122,9 @@ hr {
   display: block !important;
   position: absolute !important;
   left: 0 !important;
-  bottom: -0.063em !important;
+  bottom: -1px !important;
   width: 100% !important;
-  height: 0.125em !important;
+  height: 2px !important;
   background: linear-gradient(to right, #fc423f 0%, #fff 100%) !important;
   content: '' !important;
   transition: width 0.2s !important;
@@ -142,26 +141,26 @@ hr {
   background-color: #fc423f;
 }
 .section-title {
-  margin-bottom: 4.375em;
+  margin-bottom: 70px;
 }
 .section-title h2 {
   position: relative;
-  margin-top: 3.125em;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 .section-title h2::after {
   position: absolute;
   content: '';
   background: linear-gradient(to right, #fd6b68 0%, #fc423f 100%);
-  height: 0.25em;
-  width: 3.75em;
+  height: 4px;
+  width: 60px;
   bottom: 0;
-  margin-left: -1.875em;
+  margin-left: -30px;
   left: 50%;
 }
 .section-title p {
-  font-size: 1.125em;
+  font-size: 18px;
 }
 .btn-custom {
   font-family: 'Raleway', sans-serif;
@@ -169,12 +168,12 @@ hr {
   color: #fff;
   background-color: #fd6b68;
   background-image: linear-gradient(to right, #fd6b68 0%, #fc423f 100%);
-  padding: 0.875em 2.125em;
-  letter-spacing: 0.063em;
+  padding: 14px 34px;
+  letter-spacing: 1px;
   margin: 0;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: 500;
-  border-radius: 1.563em;
+  border-radius: 25px;
   transition: all 0.5s linear;
   border: 0;
 }
@@ -225,20 +224,20 @@ a:focus,
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 0.625em;
-  font-size: 3em;
+  margin-bottom: 10px;
+  font-size: 48px;
 }
 .intro p {
   color: #fff;
-  font-size: 1.375em;
+  font-size: 22px;
   font-weight: 300;
-  line-height: 1.875em;
+  line-height: 30px;
   margin: 0 auto;
-  margin-bottom: 3.75em;
+  margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 21.875em;
-  padding-bottom: 12.5em;
+  padding-top: 350px;
+  padding-bottom: 200px;
   text-align: center;
 }
 /* Features Section */
@@ -246,42 +245,42 @@ header .intro-text {
   background: #f6f6f6;
 }
 #features i.fa {
-  font-size: 2.375em;
-  margin-bottom: 1.25em;
+  font-size: 38px;
+  margin-bottom: 20px;
   transition: all 0.5s;
   color: #fff;
-  width: 6.25em;
-  height: 6.25em;
-  padding: 1.875em 0;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
   border-radius: 50%;
   background: linear-gradient(to right, #fc423f 0%, #fd6b68 100%);
-  box-shadow: 0.625em 0.625em 0.625em rgba(0, 0, 0, 0.05);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
 #about {
-  padding: 6.25em 0;
+  padding: 100px 0;
 }
 #about h3 {
-  font-size: 1.375em;
-  margin: 0 0 1.25em;
+  font-size: 22px;
+  margin: 0 0 20px;
 }
 #about h2 {
   position: relative;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 #about h2::after {
   position: absolute;
   content: '';
   background: linear-gradient(to right, #fd6b68 0%, #fc423f 100%);
-  height: 0.25em;
-  width: 3.75em;
+  height: 4px;
+  width: 60px;
   bottom: 0;
   left: 0;
 }
 #about .about-text li {
-  margin-bottom: 0.375em;
-  margin-left: 0.375em;
+  margin-bottom: 6px;
+  margin-left: 6px;
   list-style: none;
   padding: 0;
 }
@@ -289,29 +288,29 @@ header .intro-text {
   content: '\f00c';
   font-family: 'FontAwesome';
   color: #fd6b68;
-  font-size: 0.688em;
+  font-size: 11px;
   font-weight: 300;
-  padding-right: 0.5em;
+  padding-right: 8px;
 }
 #about img {
-  width: 32.5em;
-  margin-top: 0.625em;
+  width: 520px;
+  margin-top: 10px;
   background: #fff;
   border-right: 0;
-  box-shadow: 0 0 3.125em rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
-  line-height: 1.5em;
-  margin: 1.875em 0;
+  line-height: 24px;
+  margin: 30px 0;
 }
 /* Services Section */
 #services {
-  padding: 6.25em 0;
+  padding: 100px 0;
   background-color: #febdbc;
   color: #fff;
 }
 #services .service-desc {
-  margin: 0.625em 0.625em 1.25em;
+  margin: 10px 10px 20px;
 }
 #services h2 {
   color: #fff;
@@ -320,39 +319,39 @@ header .intro-text {
   position: absolute;
   content: '';
   background: rgba(255, 255, 255, 0.3);
-  height: 0.25em;
-  width: 3.75em;
+  height: 4px;
+  width: 60px;
   bottom: 0;
-  margin-left: -1.875em;
+  margin-left: -30px;
   left: 50%;
 }
 #services i.fa {
-  font-size: 2.625em;
-  width: 7.5em;
-  height: 7.5em;
-  padding: 2.5em 0;
+  font-size: 42px;
+  width: 120px;
+  height: 120px;
+  padding: 40px 0;
   background: linear-gradient(to right, #fc423f 0%, #fd6b68 100%);
   border-radius: 50%;
   color: #fff;
-  box-shadow: 0.625em 0.625em 0.625em rgba(0, 0, 0, 0.05);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
   font-weight: 500;
-  padding: 0.313em 0;
+  padding: 5px 0;
   color: #fff;
 }
 #services p {
   color: rgba(255, 255, 255, 0.75);
 }
 #services .service-desc {
-  margin-bottom: 2.5em;
+  margin-bottom: 40px;
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 6.25em 0;
+  padding: 100px 0;
 }
 .portfolio-item {
-  margin: 0.063em -1em 0 -0.875em;
+  margin: 1px -15px 0 -14px;
   padding: 0;
 }
 .portfolio-item .hover-bg {
@@ -378,8 +377,8 @@ header .intro-text {
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   transition: all 0.3s;
-  font-size: 1.125em;
-  letter-spacing: 0.063em;
+  font-size: 18px;
+  letter-spacing: 1px;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -394,27 +393,27 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-  padding: 6.25em 0;
+  padding: 100px 0;
   background: #f6f6f6;
 }
 #testimonials i {
   color: #e6e6e6;
-  font-size: 2em;
-  margin-bottom: 1.25em;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 .testimonial {
   position: relative;
-  padding: 1.25em;
+  padding: 20px;
 }
 .testimonial-image {
   float: left;
-  margin-right: 1em;
+  margin-right: 15px;
 }
 .testimonial-image,
 .testimonial-image img {
   display: block;
-  width: 4em;
-  height: 4em;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
 }
 .testimonial-content {
@@ -423,69 +422,69 @@ header .intro-text {
 }
 .testimonial-content p {
   margin-bottom: 0;
-  font-size: 0.875em;
+  font-size: 14px;
   font-style: italic;
 }
 .testimonial-meta {
-  margin-top: 0.625em;
-  font-size: 1em;
+  margin-top: 10px;
+  font-size: 15px;
   font-weight: 600;
   color: #666;
 }
 /* FAQ Section */
 #faqs {
-  padding: 6.25em 0;
+  padding: 100px 0;
 }
 /* Contact Section */
 #contact {
-  padding: 6.25em 0 3.75em;
+  padding: 100px 0 60px;
   background: #f6f6f6;
 }
 #contact .section-title {
-  margin-bottom: 2.5em;
+  margin-bottom: 40px;
 }
 #contact .section-title p {
-  font-size: 1em;
+  font-size: 16px;
 }
 #contact h2 {
   color: #fff;
-  margin-top: 0.625em;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 #contact .section-title h2::after {
   position: absolute;
   content: '';
   background: rgba(255, 255, 255, 0.3);
-  height: 0.25em;
-  width: 3.75em;
+  height: 4px;
+  width: 60px;
   bottom: 0;
-  left: 1.875em;
+  left: 30px;
 }
 #contact h3 {
-  margin-top: 5em;
-  margin-bottom: 1.563em;
-  padding-bottom: 1.25em;
+  margin-top: 80px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
   font-weight: 400;
 }
 #contact form {
-  padding-top: 1.25em;
+  padding-top: 20px;
 }
 #contact .text-danger {
   color: #cc0033;
   text-align: left;
 }
 #contact .btn-custom {
-  margin: 1.875em 0;
+  margin: 30px 0;
   background: transparent;
-  border: 0.125em solid #fff;
+  border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
   color: #fc423f;
   background: #fff;
 }
 label {
-  font-size: 0.75em;
+  font-size: 12px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
   float: left;
@@ -493,13 +492,13 @@ label {
 #contact .form-control {
   display: block;
   width: 100%;
-  padding: 0.375em 0.75em;
-  font-size: 1em;
+  padding: 6px 12px;
+  font-size: 16px;
   line-height: 1.42857143;
   color: #444;
   background-color: #fff;
   background-image: none;
-  border: 0.063em solid #ddd;
+  border: 1px solid #ddd;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -526,31 +525,31 @@ label {
   color: #777;
 }
 #contact .contact-item {
-  margin: 1.25em 0;
+  margin: 20px 0;
 }
 #contact .contact-item span {
-  margin-bottom: 0.625em;
+  margin-bottom: 10px;
   display: block;
 }
 #contact .contact-item i.fa {
-  margin-right: 0.625em;
+  margin-right: 10px;
 }
 #contact .social {
-  border-top: 0.063em solid rgba(255, 255, 255, 0.15);
-  padding-top: 3.125em;
-  margin-top: 3.125em;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 50px;
+  margin-top: 50px;
   text-align: center;
 }
 #contact .social ul li {
   display: inline-block;
-  margin: 0 1.25em;
+  margin: 0 20px;
 }
 #contact .social i.fa {
-  font-size: 1.375em;
-  width: 3em;
-  height: 3em;
-  padding: 0.75em 0;
-  border: 0.125em solid #fc423f;
+  font-size: 22px;
+  width: 48px;
+  height: 48px;
+  padding: 12px 0;
+  border: 2px solid #fc423f;
   color: #fc423f;
   border-radius: 50%;
   transition: all 0.3s;
@@ -562,22 +561,22 @@ label {
 /* Footer Section*/
 #footer {
   background: #fc423f;
-  padding: 1.875em 0;
+  padding: 30px 0;
 }
 #footer p {
   color: #fff;
-  font-size: 0.875em;
+  font-size: 14px;
 }
 #footer a {
   color: #000;
 }
 #footer a:hover {
-  border-bottom: 0.125em solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
 @media (max-width: 768px) {
   #about img {
-    margin: 3.125em 0;
+    margin: 50px 0;
   }
 
   body {
