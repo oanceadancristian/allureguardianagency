@@ -205,10 +205,10 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  /* display: table; */
+  display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg.jpg) no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,11 +221,11 @@ a:focus,
 .intro h1 {
   font-family: 'Raleway', sans-serif;
   color: #fff;
-  font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  font-size: 3em;
 }
 .intro p {
   color: #fff;
@@ -439,7 +439,6 @@ header .intro-text {
 #contact {
   padding: 100px 0 60px;
   background: #f6f6f6;
-  /* color: rgba(255, 255, 255, 0.75); */
 }
 #contact .section-title {
   margin-bottom: 40px;
