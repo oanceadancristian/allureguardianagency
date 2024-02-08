@@ -1,6 +1,8 @@
 import React from 'react';
 
 export const Contact = (props) => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div>
       <div id="contact">
@@ -49,7 +51,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>&copy; 2024 Allure Guardian Agency.</p>
+          <p>&copy; {currentYear} Allure Guardian Agency.</p>
         </div>
       </div>
     </div>
