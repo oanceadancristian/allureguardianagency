@@ -589,6 +589,15 @@ label {
   }
 }
 /* Fixing anchor scrolling too far */
+@media (max-width: 480px) {
+  #booking {
+    padding: 135px 0 60px;
+  }
+
+  #contact {
+    padding: 135px 0 60px;
+  }
+}
 @media (max-width: 991px) {
   #booking {
     padding: 150px 0 60px;
