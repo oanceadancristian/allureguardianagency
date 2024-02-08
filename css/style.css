@@ -242,6 +242,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
+  padding: 100px 0;
   background: #f6f6f6;
 }
 #features i.fa {
@@ -258,7 +259,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 #about h3 {
   font-size: 22px;
@@ -433,6 +434,10 @@ header .intro-text {
 }
 /* FAQ Section */
 #faqs {
+  padding: 150px 0;
+}
+/* Booking Section */
+#booking {
   padding: 100px 0;
 }
 /* Contact Section */
@@ -462,7 +467,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
@@ -537,7 +542,7 @@ label {
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   text-align: center;
 }
 #contact .social ul li {
@@ -581,5 +586,15 @@ label {
 
   body {
     width: 500%;
+  }
+}
+/* Fixing anchor scrolling too far */
+@media (max-width: 991px) {
+  #booking {
+    padding: 150px 0 60px;
+  }
+
+  #contact {
+    padding: 150px 0 60px;
   }
 }
