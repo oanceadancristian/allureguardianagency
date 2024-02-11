@@ -201,5 +201,8 @@
     "phone": "Phone",
     "email": "admin@allureguardianagency.com",
     "instagram": "https://www.instagram.com/allureguardianagency/"
+  },
+  "NotFound": {
+    "message": "Page not found"
   }
 }
