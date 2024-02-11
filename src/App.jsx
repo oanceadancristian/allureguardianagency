@@ -26,7 +26,6 @@ const App = () => {
   }, []);
 
   const url = window.location.href;
-  console.log(url);
 
   const myUrlList = [
     'http://localhost:3000/',
@@ -37,18 +36,17 @@ const App = () => {
     'http://localhost:3000/#faqs',
     'http://localhost:3000/#booking',
     'http://localhost:3000/#contact',
-    'allureguardianagency.com/',
-    'allureguardianagency.com/#page-top',
-    'allureguardianagency.com/#features',
-    'allureguardianagency.com/#about',
-    'allureguardianagency.com/#services',
-    'allureguardianagency.com/#faqs',
-    'allureguardianagency.com/#booking',
-    'allureguardianagency.com/#contact',
+    'https://www.allureguardianagency.com/',
+    'https://www.allureguardianagency.com/#page-top',
+    'https://www.allureguardianagency.com/#features',
+    'https://www.allureguardianagency.com/#about',
+    'https://www.allureguardianagency.com/#services',
+    'https://www.allureguardianagency.com/#faqs',
+    'https://www.allureguardianagency.com/#booking',
+    'https://www.allureguardianagency.com/#contact',
   ];
 
   const exists = myUrlList.includes(url);
-  console.log(exists);
 
   if (exists) {
     return (
