@@ -26,24 +26,26 @@ const App = () => {
   }, []);
 
   const url = window.location.href;
+  const localhost = 'http://localhost:3000/';
+  const website = 'https://www.allureguardianagency.com/';
 
   const myUrlList = [
-    'http://localhost:3000/',
-    'http://localhost:3000/#page-top',
-    'http://localhost:3000/#features',
-    'http://localhost:3000/#about',
-    'http://localhost:3000/#services',
-    'http://localhost:3000/#faqs',
-    'http://localhost:3000/#booking',
-    'http://localhost:3000/#contact',
-    'https://www.allureguardianagency.com/',
-    'https://www.allureguardianagency.com/#page-top',
-    'https://www.allureguardianagency.com/#features',
-    'https://www.allureguardianagency.com/#about',
-    'https://www.allureguardianagency.com/#services',
-    'https://www.allureguardianagency.com/#faqs',
-    'https://www.allureguardianagency.com/#booking',
-    'https://www.allureguardianagency.com/#contact',
+    localhost,
+    localhost + '#page-top',
+    localhost + '#features',
+    localhost + '#about',
+    localhost + '#services',
+    localhost + '#faqs',
+    localhost + '#booking',
+    localhost + '#contact',
+    website,
+    website + '#page-top',
+    website + '#features',
+    website + '#about',
+    website + '#services',
+    website + '#faqs',
+    website + '#booking',
+    website + '#contact',
   ];
 
   const exists = myUrlList.includes(url);
