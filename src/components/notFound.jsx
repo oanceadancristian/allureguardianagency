@@ -1,12 +1,14 @@
 export const NotFound = (props) => {
   return (
-    <div className="container text-center" style={{ marginTop: '250px' }}>
-      <h1 style={{ marginBottom: '25px' }}>
+    <div className="not-found-container">
+      <h2 className="not-found-title">
         {props.data ? props.data.message : 'Loading'}
-      </h1>
-      <a href="/">
-        <button className="btn-custom">Go back home</button>
-      </a>
+      </h2>
+      <div className="not-found-button">
+        <a href="/">
+          <button className="btn-custom">Go back home</button>
+        </a>
+      </div>
     </div>
   );
 };
