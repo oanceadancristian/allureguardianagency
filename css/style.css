@@ -592,7 +592,7 @@ label {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 .not-found-title {
   margin-bottom: 25px;
