@@ -467,7 +467,6 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  /* margin-top: 80px; */
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
@@ -542,7 +541,6 @@ label {
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 50px;
-  /* margin-top: 50px; */
   text-align: center;
 }
 #contact .social ul li {
@@ -587,6 +585,17 @@ label {
   body {
     width: 500%;
   }
+}
+/* Not Found */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.not-found-title {
+  margin-bottom: 25px;
 }
 /* Fixing anchor scrolling too far */
 @media (max-width: 480px) {
