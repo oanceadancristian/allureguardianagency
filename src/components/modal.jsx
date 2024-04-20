@@ -13,7 +13,7 @@ const modal = {
 
 const close = {
   position: 'absolute',
-  top: 70,
+  top: 20,
   right: 50,
   color: '#f1f1f1',
   fontSize: 50,
