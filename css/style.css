@@ -366,10 +366,11 @@ header .intro-text {
   margin: 0 auto;
   color: #fff;
   background: linear-gradient(to right, #fc423f 0%, #fd6b68 100%);
-  padding: 30% 0 0;
+  padding: 25% 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
+  cursor: pointer;
   transition: all 0.5s;
 }
 .hover-bg .hover-text > h4 {
