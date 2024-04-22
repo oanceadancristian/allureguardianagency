@@ -12,10 +12,10 @@ const myModal = {
 };
 
 const myModalClose = {
-  container: (isLaptop) => ({
+  container: (isMobile) => ({
     position: 'absolute',
-    top: isLaptop ? '70' : '185',
-    right: isLaptop ? '350' : '150',
+    top: isMobile ? '185' : '70',
+    right: isMobile ? '150' : '350',
     color: '#f1f1f1',
     fontSize: 50,
     fontWeight: 'bold',
@@ -36,7 +36,7 @@ export const Modal = ({ onOpen, children }) => {
 };
 
 export const ModalContent = ({ onClose, children }) => {
-  const mediaMatch = window.matchMedia('(min-width: 768px)');
+  const mediaMatch = window.matchMedia('(max-width: 768px)');
   const [matches, setMatches] = useState(mediaMatch.matches);
 
   useEffect(() => {
