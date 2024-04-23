@@ -347,15 +347,15 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-/* Portfolio Section */
-#portfolio {
+/* Gallery Section */
+#gallery {
   padding: 100px 0;
 }
-.portfolio-item {
+.gallery-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
-.portfolio-item .hover-bg {
+.gallery-item .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;

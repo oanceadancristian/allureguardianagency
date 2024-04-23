@@ -1,24 +1,17 @@
-import React, { useState } from 'react';
-import { Modal, ModalContent } from './modal';
+import React from 'react';
 
-export const Image = ({ title, source }) => {
-  const [isOpen, setIsopen] = useState(false);
-  const showModal = () => setIsopen((prev) => !prev);
+export const Image = ({ index, title, src, onClick }) => {
+  const handleClickImage = (index) => {
+    onClick(index);
+  };
 
   return (
-    <div className="portfolio-item">
+    <div className="gallery-item" onClick={() => handleClickImage(index)}>
       <div className="hover-bg">
-        <Modal onOpen={showModal}>
-          <div className="hover-text">
-            <h4>{title}</h4>
-          </div>
-          <img src={source} className="img-responsive" alt={title} />
-        </Modal>
-        {isOpen && (
-          <ModalContent onClose={() => setIsopen(false)}>
-            <img src={source} className="img-responsive" alt={title} />
-          </ModalContent>
-        )}
+        <div className="hover-text">
+          <h4>{title}</h4>
+        </div>
+        <img src={src} className="img-responsive" alt={title} />
       </div>
     </div>
   );

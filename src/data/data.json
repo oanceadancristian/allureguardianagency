@@ -75,27 +75,27 @@
   "Gallery": [
     {
       "title": "Allure Guardian Agency",
-      "source": "img/portfolio/result1.png"
+      "src": "img/gallery/result1.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "source": "img/portfolio/result2.png"
+      "src": "img/gallery/result2.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "source": "img/portfolio/result3.png"
+      "src": "img/gallery/result3.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "source": "img/portfolio/result4.png"
+      "src": "img/gallery/result4.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "source": "img/portfolio/result5.png"
+      "src": "img/gallery/result5.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "source": "img/portfolio/result6.png"
+      "src": "img/gallery/result6.png"
     }
   ],
   "Testimonials": [
