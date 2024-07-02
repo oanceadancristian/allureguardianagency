@@ -27,7 +27,7 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Gallery</h2>
-          <p>Our results</p>
+          <p>Results</p>
         </div>
         <div className="row">
           <div className="gallery-items">
