@@ -257,20 +257,20 @@ header .intro-text {
   background: linear-gradient(to right, #fc423f 0%, #fd6b68 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-/* About Section */
-#about {
+/* About us Section */
+#about_us {
   padding: 150px 0;
 }
-#about h3 {
+#about_us h3 {
   font-size: 22px;
   margin: 0 0 20px;
 }
-#about h2 {
+#about_us h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#about h2::after {
+#about_us h2::after {
   position: absolute;
   content: '';
   background: linear-gradient(to right, #fd6b68 0%, #fc423f 100%);
@@ -279,13 +279,13 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
-#about .about-text li {
+#about_us .about_us-text li {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
   padding: 0;
 }
-#about .about-text li:before {
+#about_us .about_us-text li:before {
   content: '\f00c';
   font-family: 'FontAwesome';
   color: #fd6b68;
@@ -293,14 +293,14 @@ header .intro-text {
   font-weight: 300;
   padding-right: 8px;
 }
-#about img {
+#about_us img {
   width: 520px;
   margin-top: 10px;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
-#about p {
+#about_us p {
   line-height: 24px;
   margin: 30px 0;
 }
