@@ -1,4 +1,7 @@
 import React from 'react';
+import { SocialIcon } from 'react-social-icons';
+import 'react-social-icons/tiktok';
+import 'react-social-icons/instagram';
 
 export const Contact = (props) => {
   const currentYear = new Date().getFullYear();
@@ -39,9 +42,10 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.instagram : '/'}>
-                      <i className="fa fa-instagram"></i>
-                    </a>
+                    <SocialIcon url={props.data ? props.data.tiktok : '/'} />
+                  </li>
+                  <li>
+                    <SocialIcon url={props.data ? props.data.instagram : '/'} />
                   </li>
                 </ul>
               </div>
