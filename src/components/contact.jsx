@@ -43,11 +43,6 @@ export const Contact = (props) => {
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
-                  <li>
-                    <a href={props.data ? props.data.tiktok : '/'}>
-                      <i className="fa fa-tiktok"></i>
-                    </a>
-                  </li>
                 </ul>
               </div>
             </div>
