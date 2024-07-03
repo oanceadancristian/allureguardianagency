@@ -25,7 +25,7 @@
       "text": "Enjoy responsive and dedicated customer support services. This feature ensures that you have a reliable point of contact for any inquiries, concerns, or adjustments you may need. The agency's support team is committed to providing timely assistance, fostering a positive and supportive environment throughout your OnlyFans journey."
     }
   ],
-  "About": {
+  "AboutUs": {
     "paragraph": "At Allure Guardian Agency, we understand the unique and empowering world of content creation on OnlyFans. We recognize the incredible talent and dedication it takes to curate captivating content that resonates with your audience. That's why we're here to elevate your OnlyFans experience to new heights.",
     "Why": [
       "Proven Track Record",
@@ -75,27 +75,27 @@
   "Gallery": [
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result1.png"
+      "src": "img/gallery/result_1.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result2.png"
+      "src": "img/gallery/result_2.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result3.png"
+      "src": "img/gallery/result_3.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result4.png"
+      "src": "img/gallery/result_4.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result5.png"
+      "src": "img/gallery/result_5.png"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result6.png"
+      "src": "img/gallery/result_6.png"
     }
   ],
   "Testimonials": [

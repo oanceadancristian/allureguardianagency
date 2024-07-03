@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Navigation } from './components/navigation';
 import { Header } from './components/header';
 import { Features } from './components/features';
-import { About } from './components/about';
+import { AboutUs } from './components/aboutUs';
 import { Services } from './components/services';
 import { Gallery } from './components/gallery';
 // import { Testimonials } from './components/testimonials';
@@ -33,7 +33,7 @@ const App = () => {
     localhost,
     localhost + '#page-top',
     localhost + '#features',
-    localhost + '#about',
+    localhost + '#about_us',
     localhost + '#services',
     localhost + '#gallery',
     localhost + '#faqs',
@@ -42,7 +42,7 @@ const App = () => {
     website,
     website + '#page-top',
     website + '#features',
-    website + '#about',
+    website + '#about_us',
     website + '#services',
     website + '#gallery',
     website + '#faqs',
@@ -58,7 +58,7 @@ const App = () => {
         <Navigation />
         <Header data={landingPageData.Header} />
         <Features data={landingPageData.Features} />
-        <About data={landingPageData.About} />
+        <AboutUs data={landingPageData.AboutUs} />
         <Services data={landingPageData.Services} />
         <Gallery data={landingPageData.Gallery} />
         {/* <Testimonials data={landingPageData.Testimonials} /> */}
