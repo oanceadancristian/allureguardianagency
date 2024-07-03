@@ -3,6 +3,13 @@ import { SocialIcon } from 'react-social-icons';
 import 'react-social-icons/tiktok';
 import 'react-social-icons/instagram';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLocationDot,
+  faPhone,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons';
+
 export const Contact = (props) => {
   const currentYear = new Date().getFullYear();
 
@@ -15,7 +22,7 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <FontAwesomeIcon icon={faLocationDot} /> Address
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
@@ -23,7 +30,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <FontAwesomeIcon icon={faPhone} /> Phone
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -31,7 +38,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <FontAwesomeIcon icon={faEnvelope} /> Email
                 </span>{' '}
                 {props.data ? props.data.email : 'loading'}
               </p>
