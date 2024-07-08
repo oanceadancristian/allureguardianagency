@@ -2,7 +2,6 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import 'react-social-icons/tiktok';
 import 'react-social-icons/instagram';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faLocationDot,

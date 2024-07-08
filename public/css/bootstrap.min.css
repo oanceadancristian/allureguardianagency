@@ -1586,11 +1586,6 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
 @media (min-width: 992px) {
   .container {
     width: 970px;
@@ -4271,11 +4266,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-radius: 4px;
   }
 }
-@media (min-width: 768px) {
-  .navbar-header {
-    float: left;
-  }
-}
 .navbar-collapse {
   padding-right: 15px;
   padding-left: 15px;
@@ -4339,20 +4329,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     max-height: 200px;
   }
 }
-.container > .navbar-header,
-.container-fluid > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
 @media (min-width: 768px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
+    display: flex;
+    justify-content: center;
   }
 }
 .navbar-static-top {
@@ -4448,7 +4431,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     position: static;
     float: none;
     width: auto;
-    /* margin-top: 0; */
     background-color: transparent;
     border: 0;
     -webkit-box-shadow: none;
@@ -4468,7 +4450,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    display: flex;
+    justify-content: center;
     margin: 0;
   }
   .navbar-nav > li {
@@ -4600,10 +4583,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-left {
     float: left !important;
-  }
-  .navbar-right {
-    float: right !important;
-    margin-right: -15px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -6834,7 +6813,6 @@ button.close {
   .carousel-control .icon-next {
     width: 30px;
     height: 30px;
-    /* margin-top: -10px; */
     font-size: 30px;
   }
   .carousel-control .glyphicon-chevron-left,
