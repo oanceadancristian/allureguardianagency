@@ -96,6 +96,7 @@ hr {
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
+  text-align: center;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
