@@ -6,7 +6,7 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Our Services</h2>
-          <p>Unleash Your OnlyFans Potential</p>
+          <p>Unlock Your Social Media Power</p>
         </div>
         <div className="row">
           {props.data
