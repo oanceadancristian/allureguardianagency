@@ -75,81 +75,81 @@
   "Gallery": [
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result_1.png"
+      "src": "img/gallery/results/result_1.jpeg"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result_2.png"
+      "src": "img/gallery/results/result_2.jpeg"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result_3.png"
+      "src": "img/gallery/results/result_3.jpeg"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result_4.png"
+      "src": "img/gallery/results/result_4.jpeg"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result_5.png"
+      "src": "img/gallery/results/result_5.jpeg"
     },
     {
       "title": "Allure Guardian Agency",
-      "src": "img/gallery/result_6.png"
+      "src": "img/gallery/results/result_6.jpeg"
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/gallery/testimonials/testimonial_1.jpg",
       "text": "\"Joining Allure Guardian Agency was a game-changer for me! The support and guidance they provide are unparalleled. I've seen a significant increase in my subscriber count and the community here is amazing. It's not just about the content; it's about empowerment and camaraderie. Truly grateful for this incredible experience!\"",
       "name": "Samantha"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/gallery/testimonials/testimonial_2.jpg",
       "text": "\"I was a bit skeptical at first, but Allure Guardian Agency exceeded my expectations. They helped me set up my profile, offered valuable tips for content creation and provided a safe space to express myself. The growth in my fan base has been fantastic and the agency's professionalism has made this journey enjoyable and profitable!\"",
       "name": "Emanuella"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/gallery/testimonials/testimonial_3.jpg",
       "text": "\"Being part of Allure Guardian Agency has been a liberating experience. The team is incredibly supportive and they prioritize the well-being of their creators. From personalized advice on promoting my content to a vibrant community, I've found a home here. It's not just about the platform; it's about the people who make it special.\"",
       "name": "Ava"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/gallery/testimonials/testimonial_4.jpg",
       "text": "\"I've tried collaborating with other people, but Allure Guardian Agency stands out. They understand the dynamics of the industry and their commitment to creator success is evident. The tools and resources provided have been instrumental in boosting my visibility and the positive atmosphere within the community makes every moment enjoyable.\"",
       "name": "Diana"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/gallery/testimonials/testimonial_5.jpg",
       "text": "\"Allure Guardian Agency is a game-changer for anyone serious about their content creation journey. The support team is responsive, the workflow is user-friendly and the promotional strategies they employ are effective. Joining this agency has not only increased my earnings, but also connected me with like-minded individuals who share a passion for creativity.\"",
       "name": "Sophie"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/gallery/testimonials/testimonial_6.jpg",
       "text": "\"I've been on social media for a while, but joining Allure Guardian Agency elevated my experience. They prioritize creator well-being, offering valuable insights and fostering a sense of community. The attention to detail in their services sets them apart and I've seen remarkable growth in my subscriber base. Highly recommend for anyone looking to thrive on social media!\"",
       "name": "Olivia"
     }
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/gallery/team/team_1.jpg",
+      "name": "Name",
+      "job": "Job"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/gallery/team/team_2.jpg",
+      "name": "Name",
+      "job": "Job"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/gallery/team/team_3.jpg",
+      "name": "Name",
+      "job": "Job"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/gallery/team/team_4.jpg",
+      "name": "Name",
+      "job": "Job"
     }
   ],
   "Faqs": {
