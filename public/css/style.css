@@ -611,13 +611,3 @@ label {
     padding: 150px 0 150px;
   }
 }
-
-/* Fixing menu font size */
-@media (max-width: 991px) {
-  #menu a.navbar-brand {
-    font-size: 20px;
-  }
-  #menu.navbar-default .navbar-nav > li > a {
-    font-size: 13px;
-  }
-}

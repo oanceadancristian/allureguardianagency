@@ -4451,6 +4451,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 0;
   }
   .navbar-nav > li {
