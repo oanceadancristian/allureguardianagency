@@ -130,28 +130,6 @@
       "name": "Olivia"
     }
   ],
-  "Team": [
-    {
-      "img": "img/gallery/team/team_1.jpg",
-      "name": "Name",
-      "job": "Job"
-    },
-    {
-      "img": "img/gallery/team/team_2.jpg",
-      "name": "Name",
-      "job": "Job"
-    },
-    {
-      "img": "img/gallery/team/team_3.jpg",
-      "name": "Name",
-      "job": "Job"
-    },
-    {
-      "img": "img/gallery/team/team_4.jpg",
-      "name": "Name",
-      "job": "Job"
-    }
-  ],
   "Faqs": {
     "title": "FAQS (How it works)",
     "rows": [
@@ -197,6 +175,23 @@
       }
     ]
   },
+  "Team": [
+    {
+      "position": "Virtual Assistants",
+      "booking_url": "https://calendar.app.google/n6bAdq4ZPEbDDVdM9",
+      "img": "img/gallery/team/virtual_assistants.png"
+    },
+    {
+      "position": "Chatters",
+      "booking_url": "https://calendar.app.google/wp3RbqRsEfuvuSXWA",
+      "img": "img/gallery/team/chatters.png"
+    },
+    {
+      "position": "Partners",
+      "booking_url": "https://calendar.app.google/dfxd4k9wfWDF6qEs8",
+      "img": "img/gallery/team/partnerships.png"
+    }
+  ],
   "Contact": {
     "address": "Address",
     "phone": "Phone",

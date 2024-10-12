@@ -58,7 +58,9 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>&copy; {currentYear} Allure Guardian Agency.</p>
+          <p>
+            &copy; {currentYear} Allure Guardian Agency. All rights reserved.
+          </p>
         </div>
       </div>
     </div>
