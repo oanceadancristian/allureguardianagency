@@ -440,11 +440,18 @@ header .intro-text {
 }
 /* Booking Section */
 #booking {
+  padding: 125px 0;
+}
+/* Team Section */
+#team {
   padding: 100px 0;
+}
+.thumbnail:hover {
+  box-shadow: 0 0 10px rgba(33, 33, 33, 0.3);
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 150px 0;
   background: #f6f6f6;
 }
 #contact .section-title {
@@ -601,6 +608,16 @@ label {
   }
 
   #contact {
-    padding: 150px 0 60px;
+    padding: 150px 0 150px;
+  }
+}
+
+/* Fixing menu font size */
+@media (max-width: 991px) {
+  #menu a.navbar-brand {
+    font-size: 20px;
+  }
+  #menu.navbar-default .navbar-nav > li > a {
+    font-size: 13px;
   }
 }
