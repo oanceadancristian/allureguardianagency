@@ -4,11 +4,11 @@ import { Header } from './components/header';
 import { Features } from './components/features';
 import { AboutUs } from './components/aboutUs';
 import { Services } from './components/services';
-import { Gallery } from './components/gallery';
+// import { Gallery } from './components/gallery';
 // import { Testimonials } from './components/testimonials';
 import { Faqs } from './components/faqs';
 import { Booking } from './components/booking';
-import { Team } from './components/team';
+// import { Team } from './components/team';
 import { Contact } from './components/contact';
 import { NotFound } from './components/notFound';
 import JsonData from './data/data.json';
@@ -36,20 +36,20 @@ const App = () => {
     localhost + '#features',
     localhost + '#about_us',
     localhost + '#services',
-    localhost + '#gallery',
+    // localhost + '#gallery',
     localhost + '#faqs',
     localhost + '#booking',
-    localhost + '#team',
+    // localhost + '#team',
     localhost + '#contact',
     website,
     website + '#page-top',
     website + '#features',
     website + '#about_us',
     website + '#services',
-    website + '#gallery',
+    // website + '#gallery',
     website + '#faqs',
     website + '#booking',
-    website + '#team',
+    // website + '#team',
     website + '#contact',
   ];
 
@@ -63,11 +63,11 @@ const App = () => {
         <Features data={landingPageData.Features} />
         <AboutUs data={landingPageData.AboutUs} />
         <Services data={landingPageData.Services} />
-        <Gallery data={landingPageData.Gallery} />
+        {/* <Gallery data={landingPageData.Gallery} /> */}
         {/* <Testimonials data={landingPageData.Testimonials} /> */}
         <Faqs data={landingPageData.Faqs} />
         <Booking />
-        <Team data={landingPageData.Team} />
+        {/* <Team data={landingPageData.Team} /> */}
         <Contact data={landingPageData.Contact} />
       </div>
     );
