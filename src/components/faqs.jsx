@@ -1,9 +1,10 @@
 import Faq from 'react-faq-component';
 
 const styles = {
+  bgColor: '#f6f6f6',
   titleTextColor: '#fc423f',
   rowTitleColor: '#fc423f',
-  rowContentColor: '#333',
+  rowContentColor: '#777',
   arrowColor: '#fc423f',
 };
 
