@@ -177,14 +177,14 @@
   },
   "Team": [
     {
-      "position": "Virtual Assistants",
+      "position": "Social Media Specialists",
       "booking_url": "https://calendar.app.google/n6bAdq4ZPEbDDVdM9",
-      "img": "img/gallery/team/virtual_assistants.png"
+      "img": "img/gallery/team/social_media_specialists.png"
     },
     {
-      "position": "Chatters",
+      "position": "Adult Platform Chatters",
       "booking_url": "https://calendar.app.google/wp3RbqRsEfuvuSXWA",
-      "img": "img/gallery/team/chatters.png"
+      "img": "img/gallery/team/adult_platform_chatters.png"
     },
     {
       "position": "Partners",

@@ -209,7 +209,6 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  /* background: url(../img/intro_bg.jpg) no-repeat; */
   background-color: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
