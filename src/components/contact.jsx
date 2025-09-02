@@ -18,7 +18,7 @@ export const Contact = (props) => {
         <div className="container">
           <div className="text-center contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>Contact Infooo</h3>
               <p>
                 <span>
                   <FontAwesomeIcon icon={faLocationDot} /> Address
